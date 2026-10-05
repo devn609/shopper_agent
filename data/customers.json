@@ -1,0 +1,5 @@
+[
+{"id":"c001","name":"Daniel","preferred_categories":["running","training"],"avg_order_value":126.0,"recent_views":["running","training"],"purchases":["p001","p005"]},
+{"id":"c002","name":"John","preferred_categories":["walking","sneakers"],"avg_order_value":104.0,"recent_views":["walking","sneakers"],"purchases":["p003","p004"]},
+{"id":"c003","name":"Peter","preferred_categories":["running"],"avg_order_value":151.0,"recent_views":["running","running"],"purchases":["p002"]}
+]

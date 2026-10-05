@@ -1,0 +1,4 @@
+id,name,preferred_categories,avg_order_value,price_sensitivity
+c001,Daniel,"running|training",126.0,0.55
+c002,John,"walking|sneakers",104.0,0.72
+c003,Peter,running,151.0,0.35

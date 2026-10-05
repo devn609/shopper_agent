@@ -1,0 +1,8 @@
+[
+{"id":"p001","name":"AeroRun Road Shoe","category":"running","price":129.99,"rating":4.7,"inventory":18,"demand_index":0.82,"competitor_price":134.99,"tags":["road","running","lightweight","cushioning"]},
+{"id":"p002","name":"TrailFlex Runner","category":"running","price":149.99,"rating":4.8,"inventory":7,"demand_index":0.91,"competitor_price":144.99,"tags":["trail","running","grip","durable"]},
+{"id":"p003","name":"Everyday Motion Sneaker","category":"sneakers","price":89.99,"rating":4.5,"inventory":42,"demand_index":0.55,"competitor_price":94.99,"tags":["walking","casual","comfort"]},
+{"id":"p004","name":"CloudWalk Pro","category":"walking","price":119.99,"rating":4.6,"inventory":25,"demand_index":0.63,"competitor_price":124.99,"tags":["walking","comfort","support"]},
+{"id":"p005","name":"SprintLite Trainer","category":"training","price":109.99,"rating":4.4,"inventory":31,"demand_index":0.61,"competitor_price":104.99,"tags":["training","gym","lightweight"]},
+{"id":"p006","name":"UrbanFlex Hoodie","category":"apparel","price":69.99,"rating":4.6,"inventory":55,"demand_index":0.49,"competitor_price":72.99,"tags":["hoodie","casual","fleece"]}
+]

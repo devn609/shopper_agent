@@ -1,0 +1,13 @@
+.pytest_cache
+__pycache__
+
+.venv/
+
+.DS_Store
+data/.DS_Store
+data/shopper.db
+
+### VS Code ###
+.vscode/
+
+tests/__pycache__

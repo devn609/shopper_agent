@@ -1,0 +1,7 @@
+id,name,category,price,rating,inventory,demand_index,competitor_price,tags
+p001,AeroRun Road Shoe,running,129.99,4.7,18,0.82,134.99,"road|running|lightweight|cushioning"
+p002,TrailFlex Runner,running,149.99,4.8,7,0.91,144.99,"trail|running|grip|durable"
+p003,Everyday Motion Sneaker,sneakers,89.99,4.5,42,0.55,94.99,"walking|casual|comfort"
+p004,CloudWalk Pro,walking,119.99,4.6,25,0.63,124.99,"walking|comfort|support"
+p005,SprintLite Trainer,training,109.99,4.4,31,0.61,104.99,"training|gym|lightweight"
+p006,UrbanFlex Hoodie,apparel,69.99,4.6,55,0.49,72.99,"hoodie|casual|fleece"
