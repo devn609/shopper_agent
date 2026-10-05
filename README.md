@@ -5,12 +5,28 @@ Portfolio-grade Agentic AI application for conversational product discovery, sem
 ## Architecture
 
 User -> FastAPI -> LangGraph Shopper Agent -> tools:
+
 - Product Search / Recommendation
 - Customer Profile
 - Dynamic Pricing
 - Aggregate Customer Insights
 
 The LLM orchestrates tools; deterministic Python code owns recommendation scoring and pricing constraints. Pricing uses inventory, demand, and competitor price only—not customer identity or sensitive attributes.
+
+## Sqlite Data
+
+SQLite tables
+
+- products
+- customers
+- customer_events
+
+CSV import
+Run:
+
+```bash
+python scripts/import_csv.py
+```
 
 ## Run
 
@@ -26,11 +42,13 @@ uvicorn app.main:app --reload
 API docs: http://127.0.0.1:8000/docs
 
 Example:
+
 ```bash
 curl -X POST http://127.0.0.1:8000/api/shop -H 'Content-Type: application/json' -d '{"customer_id":"c001","message":"I need road running shoes under $150. Show me the best options."}'
 ```
 
 ## Production extensions
+
 - PostgreSQL + pgvector for large catalogs
 - Redis for caching
 - Kafka for click/cart/order events
