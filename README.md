@@ -20,7 +20,7 @@ SQLite tables
 - customers
 - customer_events
 
-CSV import
+Import data from CSV
 
 ```bash
 python scripts/import_csv.py
