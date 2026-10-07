@@ -14,7 +14,6 @@ User -> FastAPI -> LangGraph Shopper Agent -> tools:
 The LLM orchestrates tools; deterministic Python code owns recommendation scoring and pricing constraints. Pricing uses inventory, demand, and competitor price only—not customer identity or sensitive attributes.
 
 ## Sqlite Data Import
-
 SQLite tables
 - products
 - customers
