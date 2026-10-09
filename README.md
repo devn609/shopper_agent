@@ -1,4 +1,4 @@
-# Ecommerce Personal Shopper AI Agent
+# Ecommerce Shopper AI Agent
 
 Portfolio-grade Agentic AI application for conversational product discovery, semantic-style recommendation ranking, business-signal dynamic pricing, and customer insights.
 
